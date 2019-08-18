@@ -113,3 +113,55 @@ body {
 	text-transform: uppercase;
 	font-size: $heading__font-size--small;
 }
+
+/* SECTION-SERVICES */
+
+.services {
+	padding: 125px;
+}
+h3 {
+	font-family: $base__font-family;
+	font-size: $heading__font-size--large;
+	text-align: center;
+	font-weight: $base__font-weight--bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+p {
+	font-size: $heading__font-size--small;
+	text-align: center;
+	color: $p__text-color;
+}
+.row-services {
+	margin-top: 75px;
+	display: flex;
+}
+.content-services-item {
+	width: 100px;
+}
+.row-services h4 {
+	font-family: $base__font-family;
+	font-size: $heading__font-size--small;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.row-services p {
+	font-size: $heading__font-size--small;
+	text-align: center;
+	color: $p__text-color;
+	line-height: 1.5em;
+}
+.row-services i {
+	font-size: 30px;
+	border: 3px solid #fed136;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	color: $base-color__text-color;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.row-services > .col-4 {
+	text-align: center;
+}
