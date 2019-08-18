@@ -165,3 +165,43 @@ p {
 .row-services > .col-4 {
 	text-align: center;
 }
+
+/* PORTFOLIO */
+
+.portfolio {
+	padding: 125px 125px;
+	background-color: #f7f7f7;
+}
+.row-portfolio {
+	display: flex;
+	margin-top: 75px;
+}
+.row-portfolio:last-of-type {
+	margin-top: 150px;
+	margin-bottom: 75px;
+}
+.row-portfolio .col-4 {
+	min-height: 300px;
+}
+.portfolio-item {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.portfolio-description {
+	background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.portfolio-description > h5 {
+	font-family: $base__font-family;
+	font-weight: $base__font-weight--bold;
+	margin-bottom: 5px;
+}
+.portfolio-description > p {
+	sfont-family: $secondary__font-family;
+}
